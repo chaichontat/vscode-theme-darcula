@@ -5,6 +5,14 @@
 
 A theme extension for [Visual Studio Code](https://code.visualstudio.com) based on **Darcula** theme from [Jetbrains](https://www.jetbrains.com) IDEs.
 
+
+To compile and install:
+```
+vsce package
+code --install-extension vscode-theme-darculacs-1.2.1.vsix
+```
+
+
 ---
 
 ## Changelog
