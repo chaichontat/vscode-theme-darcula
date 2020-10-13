@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rokoroku/vscode-theme-darcula"
+    "url": "https://github.com/chaichontat/vscode-theme-darcula"
   },
   "engines": {
     "vscode": "*"
@@ -21,7 +21,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "DarculaCS",
+        "label": "DarculaCSLight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darculalight.json"
+      },
+      {
+        "label": "DarculaCSDark",
         "uiTheme": "vs-dark",
         "path": "./themes/darcula.json"
       }
